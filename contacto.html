@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="Medios de contacto para consultas, opiniones, sugerencias o envío de CV">
+        <meta name="keywords"  content="automatizacion, industrial, montajes, plc, cursos">
+        <!--Linkeo a estilos CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!--Linkeo a fuentes-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>HB Automatización | Contacto</title>
+    </head>
+
+<body class="gridCont">
+<!-------------------------------------------------------------HEADER--------------------------------------------------------->
+<header>  
+    <h1><a class="header__title" href="index.html">HB</a></h1>
+    <div><a class="header__title__desk" href="index.html">HB Automatización industrial</a></div>       
+        <nav> 
+            <ul class="header__navMenu">
+                <a class="header__navMenu__links" href="index.html"><li>HOME</li></a>
+                <a class="header__navMenu__links" href="nosotros.html"><li>NOSOTROS</li></a>
+                <a class="header__navMenu__links" href="servicios.html"><li>SERVICIOS</li></a>
+                <a class="header__navMenu__links" href="ubicacion.html"><li>UBICACION</li></a>
+                <a class="header__navMenu__links" href="contacto.html"><li>CONTACTO</li></a>
+            </ul>
+        </nav>   
+</header>
+
+<!-------------------------------------------------------------BANNER--------------------------------------------------------->
+        
+<section class="banner">
+    <h2 class="banner__title">CONTACTANOS</h2>
+</section>
+<!-------------------------------------------------------------SECCION 1--------------------------------------------------------->
+    
+        <section class="contacto__seccion1">
+            <div class="contacto__seccion1__opcion">
+                <h3 class="contacto__seccion1__opcion__title">REDES</h3>
+                <p>Encontranos en las redes como <span style="font-style: italic; text-decoration: underline;">HB Automatización</span></p>
+            </div>
+            <div class="contacto__seccion1__opcion">
+                <h3 class="contacto__seccion1__opcion__title">MAIL</h3>
+                <p>contacto@hbautomatizacion.com</p>
+            </div>
+            <div class="contacto__seccion1__opcion">
+                <h3 class="contacto__seccion1__opcion__title">TELEFONO</h3>
+                <p>4111-0000</p>
+            </div>   
+            <div class="contacto__seccion1__opcion">
+                <h3 class="contacto__seccion1__opcion__title">WHATSAPP</h3>
+                <p>+54 9 1122221111</p>
+            </div>                     
+        </section>
+
+<!-------------------------------------------------------------SECCION 2--------------------------------------------------------->
+        
+        <section class="contacto__seccion2">
+            <p class="contacto__seccion2__p">Si tenes alguna duda, consulta o sugerencia, por favor completa el siguiente formulario y serás contactado a la brevedad</p>
+            <form class="contacto__seccion2__form" action="action.php" method="post" enctype="multipart/form-data">
+                <fieldset class="contacto__seccion2__form__fieldset">
+                    <legend class="contacto__seccion2__form__fieldset__legend">Formulario de contacto</legend>
+                
+                 <!--Campo para el nombre-->
+                <label for="nombreCompleto">Nombre y apellido:</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto">
+                
+                <!--Campo para el mail-->
+                <label for="mail">Mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="ejemplo@mail.com">
+
+                <!--Campo para el telefono-->
+                <label for="telefono">Telefono:</label>                
+                    <input type="text" id="telefono" name="telefono">
+                </select>               
+                
+                <!--TEXTAREA-->
+                <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="13" cols="50"></textarea>
+                    
+            </fieldset>
+
+            <div class="buttonsCont">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar todo">
+            </div>
+
+            </form>
+        </section>
+
+<!-------------------------------------------------------------FOOTER--------------------------------------------------------->
+
+<footer class="footer">
+    <h4 class="footer__title">HB Automatización industrial</h4>
+    <div class="footer__list">
+        <ul>
+            <li><a class="footer__list__links" href="index.html">HOME</a></li>
+            <li><a class="footer__list__links" href="nosotros.html">NOSOTROS</a></li>
+            <li><a class="footer__list__links" href="servicios.html">SERVICIOS</a></li>
+            <li><a class="footer__list__links" href="ubicacion.html">UBICACION</a></li>
+            <li><a class="footer__list__links" href="contacto.html">CONTACTO</a></li>
+        </ul>
+        <div class="footer__links">
+            <a class="footer__links__job" href="contacto.html">Trabajá con nosotros</a>
+                <div class="footer__links__redes">
+                    <a class="footer__links__redes__links" href="https://www.instagram.com/agnbenitez/">Instagram|</a>
+                    <a class="footer__links__redes__links" href="https://www.facebook.com/agusbenitezlvp/">Facebook|</a>
+                    <a class="footer__links__redes__links">Twitter</a>
+                </div>
+        </div>
+    </div> 
+    
+    <div class="footer__copy">Desarrollado por Agustin Benitez</div>
+
+</footer>
+    </body>
+</html>
